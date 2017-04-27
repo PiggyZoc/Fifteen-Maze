@@ -1,0 +1,28 @@
+body{
+    font-family: cursive;
+    font-size: 14pt;
+    text-align: center;
+}
+#puzzlearea{
+    width: 400px;
+    height: 400px;
+    margin: auto;
+    position: relative;
+}
+.puzzlestyle{
+    width: 100px;
+    height: 100px;
+    border: black 5px solid;
+    font-size: 40pt;
+    position: absolute;
+    background-image: url('background.jpg');
+
+ }
+.puzzlestyle:hover{
+    cursor: default;
+}
+.changecursor:hover{
+    cursor: pointer;
+    color: red;
+    border-color: red;
+}
